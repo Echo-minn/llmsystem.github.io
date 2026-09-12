@@ -13,7 +13,7 @@
 ## Past projects
 
 The archive at `/past_projects/` lists 53 student projects grouped by their primary
-research topic. All project titles and student names are in `past_projects/index.html`.
+research topic. All project titles are in `past_projects/index.html`.
 To add a project, add a list item to the appropriate section and update its category
 count, the total count, and the page description. The page is static HTML and works
 without JavaScript or a build step.

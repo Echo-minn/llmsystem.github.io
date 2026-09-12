@@ -70,22 +70,15 @@
 }
 
 .project-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
-  gap: 0.4rem 2.5rem;
   padding: 1.2rem 0;
   border-bottom: 1px solid var(--surface-border);
   overflow-wrap: anywhere;
 }
 
-.project-title,
-.project-students {
+.project-title {
   margin: 0;
   font-size: 1rem;
   line-height: 1.65;
-}
-
-.project-title {
   font-weight: 700;
 }
 
@@ -102,10 +95,6 @@
   color: #72520c;
   font-size: 0.875rem;
   line-height: 1.6;
-}
-
-.project-students {
-  color: var(--text-muted);
 }
 
 .archive-footer {
@@ -125,7 +114,6 @@
   }
 
   .project-row {
-    grid-template-columns: minmax(0, 1fr);
     padding: 1rem 0;
   }
 }
